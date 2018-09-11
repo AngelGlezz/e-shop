@@ -2943,6 +2943,5 @@ $(document).ready(function(){
 
     getArticle();
     $(".makeup").hide();
-    $("#maquillaje").on("mouseenter", getArticle);
     $("#maquillaje").on("click", showMakeup);
 });
