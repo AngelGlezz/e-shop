@@ -3105,24 +3105,6 @@ var fragancias = [
         content : 75
     },
     {
-        picture : "MB010A01.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Montblanc",
-        name : "Lady Emblem",
-        price : 1300,
-        content : 100
-    },
-    {
-        picture : "MB010E01.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Montblanc",
-        name : "Lady Emblem Intense",
-        price : 1400,
-        content : 100
-    },
-    {
         picture : "B0235000.jpg",
         type : "fragancia",
         gender : "male",
@@ -3141,7 +3123,7 @@ var fragancias = [
         content : 100
     },
     {
-        picture : "MB-032681.jpg",
+        picture : "BO635000.jpg",
         type : "fragancia",
         gender : "fem",
         designer : "Montblanc",
@@ -3968,6 +3950,7 @@ $(document).ready(function(){
             $("#article_content").append(div);
         }
         $(".male").hide();
+        $("#buscador").val("");
         $("div.holder").jPages({
             containerID  : "article_content",
             perPage      : 12,
@@ -3982,6 +3965,7 @@ $(document).ready(function(){
     }
 
     function showFraganceFemale() {
+        $("#buscador").val("");
         $(".fem").show();
         $(".male").hide();
         $(".makeup").hide();
@@ -4000,6 +3984,7 @@ $(document).ready(function(){
     }
 
     function showFraganceMale() {
+        $("#buscador").val("");
         $(".male").show();
         $(".fem").hide();
         $(".makeup").hide();
@@ -4018,6 +4003,74 @@ $(document).ready(function(){
     }
 
     getArticle();
+
+    $('#buscador').keyup(function(){
+        var nombres = $('.name_article');
+        var buscando = $(this).val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
+        } else {
+            for( var i = 0; i < nombres.length; i++ ){
+                item = $(nombres[i]).html().toLowerCase();
+                for(var x = 0; x < item.length; x++ ){
+                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
+                        $(nombres[i]).parent().show();
+                    }else{
+                        $(nombres[i]).parent().hide();
+                    }
+                }
+            }
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });
+
+    $('#buscador').keyup(function(){
+        var nombres = $('.designer_article');
+        var buscando = $(this).val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
+        } else {
+            for( var i = 0; i < nombres.length; i++ ){
+                item = $(nombres[i]).html().toLowerCase();
+                for(var x = 0; x < item.length; x++ ){
+                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
+                        $(nombres[i]).parent().show();
+                    }else{
+                        $(nombres[i]).parent().hide();
+                    }
+                }
+            }
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });
 
     $(".women").on("click", showFraganceFemale);
     $(".men").on("click", showFraganceMale);

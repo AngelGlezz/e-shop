@@ -22,7 +22,6 @@
 	<link rel="stylesheet" type="text/css" href="css/plantilla.css">
 	<link rel="stylesheet" type="text/css" href="css/article.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<script type="text/javascript" src="js/page.js"></script>
 	<script type="text/javascript" src="js/fragancia.js"></script>
 	<script type="text/javascript" src="js/maquillaje.js"></script>
 	<script type="text/javascript" src="js/cosmeticos.js"></script>
@@ -74,6 +73,10 @@
 				<li><a id="maquillaje">MAQUILLAJE</a></li>
 				<li><a id="cosmeticos">COSMÉTICOS</a></li>
 			</ul>
+			<p class="buscador">
+			    <label>Buscar:</label>
+			    <input id="buscador" type="input" value="">
+			</p>
 		</div>
 		<div id="principal">
 			<div id="content">
@@ -95,8 +98,9 @@
 	</div>
 	<script type="text/javascript">
 		jQuery.preloadImages = function(){
-		  for(var i = 0; i<arguments.length; i++){
-		    jQuery("<img>").attr("src", arguments[i]);
+		  	for(var i = 0; i<arguments.length; i++){
+		    	jQuery("<img>").attr("src", arguments[i]);
+			}
 		}
 	</script>
 </body>

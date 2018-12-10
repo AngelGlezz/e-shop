@@ -477,10 +477,12 @@ $(document).ready(function(){
             $("#article_content").append(div);
         }
         $(".cosmetics").hide();
+        $("#buscador").val("");
         return i;
     }
 
     function showCosmetics() {
+        $("#buscador").val("");
         $(".fem").hide();
         $(".male").hide();
         $(".makeup").hide();
