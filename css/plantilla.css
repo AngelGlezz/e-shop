@@ -1,5 +1,5 @@
 #page {
-	overflow: auto;
+	overflow: hidden;
 }
 
 #header {
@@ -9,9 +9,9 @@
 }
 
 .buscador{
-  	margin:0 auto;
-  	width:370px;
-  	line-height:2;
+  	margin: 0 auto;
+  	width: 370px;
+  	line-height: 2;
   	font-family: 'Coming Soon', cursive;
 	font-size: 20px;
 	color: #006dd9;
@@ -20,9 +20,8 @@
 }
 
 #buscador{
-  	width: 75%;
+  	width: 73%;
   	font-size: 20px;
-  	float: right;
 }
 
 #principal {
@@ -63,6 +62,14 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.buscador label {
+		border: 1px solid #006dd9;
+		padding: 0px 5px;
+		border-radius: 35%;
+	}
+}
+
 @media (max-width: 720px){
 	#content {
 	    width: 520px;
@@ -85,7 +92,11 @@
 	}
 }
 
-
+@media (max-width: 365px) {
+	.buscador {
+		width: 95%;
+	}
+}
 
 
 
