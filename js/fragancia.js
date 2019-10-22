@@ -3736,7 +3736,7 @@ $(document).ready(function(){
 
     $('#buscador').keyup(function(){
         var nombres = $('.name_article');
-        var buscando = $(this).val();
+        var buscando = $(this).val().toLowerCase();
         var item='';
         if (buscando == '') {
             $("#buscador").val("");
@@ -3770,7 +3770,7 @@ $(document).ready(function(){
 
     $('#buscador').keyup(function(){
         var nombres = $('.designer_article');
-        var buscando = $(this).val();
+        var buscando = $(this).val().toLowerCase();
         var item='';
         if (buscando == '') {
             $("#buscador").val("");
