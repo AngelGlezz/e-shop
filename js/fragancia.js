@@ -3734,7 +3734,7 @@ $(document).ready(function(){
 
     getArticle();
 
-    $('#buscador').keyup(function(){
+    /*$('#buscador').keyup(function(){
         var nombres = $('.name_article');
         var buscando = $(this).val();
         var item='';
@@ -3789,6 +3789,29 @@ $(document).ready(function(){
                     }
                 }
             }
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });*/
+
+    $('#buscador').keyup(function(){
+        var nombres = $('.designer_article');
+        var buscando = $(this).val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
         }
         $("div.holder").jPages({
             containerID  : "article_content",
