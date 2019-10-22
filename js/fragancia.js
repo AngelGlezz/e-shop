@@ -3734,7 +3734,7 @@ $(document).ready(function(){
 
     getArticle();
 
-    /*$('#buscador').keyup(function(){
+    $('#buscador').keyup(function(){
         var nombres = $('.name_article');
         var buscando = $(this).val();
         var item='';
@@ -3771,6 +3771,97 @@ $(document).ready(function(){
     $('#buscador').keyup(function(){
         var nombres = $('.designer_article');
         var buscando = $(this).val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
+        } else {
+            for( var i = 0; i < nombres.length; i++ ){
+                item = $(nombres[i]).html().toLowerCase();
+                for(var x = 0; x < item.length; x++ ){
+                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
+                        $(nombres[i]).parent().show();
+                    }else{
+                        $(nombres[i]).parent().hide();
+                    }
+                }
+            }
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });
+
+    /*$('#buscador').keyup(function(){
+        var nombres = $('.designer_article');
+        var buscando = $(this).val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });
+
+    $('.busca').click(function(){
+        var nombres = $('.name_article');
+        var buscando = $("#buscador").val();
+        var item='';
+        if (buscando == '') {
+            $("#buscador").val("");
+            $(".fem").show();
+            $(".male").hide();
+            $(".makeup").hide();
+            $(".cosmetics").hide();
+        } else {
+            for( var i = 0; i < nombres.length; i++ ){
+                item = $(nombres[i]).html().toLowerCase();
+                for(var x = 0; x < item.length; x++ ){
+                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
+                        $(nombres[i]).parent().show();
+                    }else{
+                        $(nombres[i]).parent().hide();
+                    }
+                }
+            }
+        }
+        $("div.holder").jPages({
+            containerID  : "article_content",
+            perPage      : 12,
+            startPage    : 1,
+            startRange   : 1,
+            first       : false,
+            previous    : false,
+            next        : false,
+            last        : false
+        });
+    });
+
+    $('.busca').click(function(){
+        var nombres = $('.designer_article');
+        var buscando = $("#buscador").val();
         var item='';
         if (buscando == '') {
             $("#buscador").val("");
@@ -3801,97 +3892,6 @@ $(document).ready(function(){
             last        : false
         });
     });*/
-
-    $('#buscador').keyup(function(){
-        var nombres = $('.designer_article');
-        var buscando = $(this).val();
-        var item='';
-        if (buscando == '') {
-            $("#buscador").val("");
-            $(".fem").show();
-            $(".male").hide();
-            $(".makeup").hide();
-            $(".cosmetics").hide();
-        }
-        $("div.holder").jPages({
-            containerID  : "article_content",
-            perPage      : 12,
-            startPage    : 1,
-            startRange   : 1,
-            first       : false,
-            previous    : false,
-            next        : false,
-            last        : false
-        });
-    });
-
-    $('.busca').click(function(){
-        var nombres = $('.name_article');
-        var buscando = $("#buscador").val();
-        var item='';
-        if (buscando == '') {
-            $("#buscador").val("");
-            $(".fem").show();
-            $(".male").hide();
-            $(".makeup").hide();
-            $(".cosmetics").hide();
-        } else {
-            for( var i = 0; i < nombres.length; i++ ){
-                item = $(nombres[i]).html().toLowerCase();
-                for(var x = 0; x < item.length; x++ ){
-                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
-                        $(nombres[i]).parent().show();
-                    }else{
-                        $(nombres[i]).parent().hide();
-                    }
-                }
-            }
-        }
-        $("div.holder").jPages({
-            containerID  : "article_content",
-            perPage      : 12,
-            startPage    : 1,
-            startRange   : 1,
-            first       : false,
-            previous    : false,
-            next        : false,
-            last        : false
-        });
-    });
-
-    $('.busca').click(function(){
-        var nombres = $('.designer_article');
-        var buscando = $("#buscador").val();
-        var item='';
-        if (buscando == '') {
-            $("#buscador").val("");
-            $(".fem").show();
-            $(".male").hide();
-            $(".makeup").hide();
-            $(".cosmetics").hide();
-        } else {
-            for( var i = 0; i < nombres.length; i++ ){
-                item = $(nombres[i]).html().toLowerCase();
-                for(var x = 0; x < item.length; x++ ){
-                    if( buscando.length == 0 || item.indexOf( buscando ) > -1 ){
-                        $(nombres[i]).parent().show();
-                    }else{
-                        $(nombres[i]).parent().hide();
-                    }
-                }
-            }
-        }
-        $("div.holder").jPages({
-            containerID  : "article_content",
-            perPage      : 12,
-            startPage    : 1,
-            startRange   : 1,
-            first       : false,
-            previous    : false,
-            next        : false,
-            last        : false
-        });
-    });
 
     $(".women").on("click", showFraganceFemale);
     $(".men").on("click", showFraganceMale);
