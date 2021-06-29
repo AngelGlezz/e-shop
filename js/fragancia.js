@@ -5,7 +5,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Praga",
         name : "Sexy Florever",
-        price : 600,
+        price : 700,
         content : 80
     },
     {
@@ -14,7 +14,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Prada",
         name : "Flor",
-        price : 600,
+        price : 700,
         content : 100
     },
     {
@@ -23,7 +23,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Prada",
         name : "Florever",
-        price : 600,
+        price : 700,
         content : 80
     },
     {
@@ -32,7 +32,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Prada",
         name : "Love Glam Love",
-        price : 600,
+        price : 700,
         content : 80
     },
     {
@@ -41,7 +41,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Prada",
         name : "Love Love Love",
-        price : 600,
+        price : 700,
         content : 80
     },
     {
@@ -50,7 +50,7 @@ var fragancias = [
         gender : "fem",
         designer : "Agatha Ruiz de la Prada",
         name : "Tutti Frutti Love",
-        price : 600,
+        price : 700,
         content : 80
     },
     {
@@ -59,7 +59,7 @@ var fragancias = [
         gender : "male",
         designer : "Aramis",
         name : "Aramis",
-        price : 1150,
+        price : 1250,
         content : 110
     },
     {
@@ -68,7 +68,7 @@ var fragancias = [
         gender : "male",
         designer : "Aramis",
         name : "Aramis",
-        price : 1700,
+        price : 1850,
         content : 240
     },
     {
@@ -139,7 +139,7 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Burberry",
-        name : "Brit",
+        name : "Brit EDP",
         price : 1500,
         content : 100
     },
@@ -149,7 +149,7 @@ var fragancias = [
         gender : "male",
         designer : "Burberry",
         name : "Brit Rhythm",
-        price : 1200,
+        price : 1300,
         content : 90
     },
     {
@@ -176,7 +176,7 @@ var fragancias = [
         gender : "male",
         designer : "Burberry",
         name : "Brit Splash",
-        price : 1100,
+        price : 1200,
         content : 100
     },
     {
@@ -193,7 +193,7 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Burberry",
-        name : "London",
+        name : "London EDP",
         price : 1300,
         content : 100
     },
@@ -238,9 +238,9 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Bvlgari",
-        name : "Amethyste",
-        price : 1250,
-        content : 60
+        name : "Omnia Amethyste EDP",
+        price : 1400,
+        content : 65
     },
     {
         picture : "9115220495.jpg",
@@ -248,7 +248,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Aqva",
-        price : 1400,
+        price : 1600,
         content : 100
     },
     {
@@ -257,7 +257,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Aqva Marine",
-        price : 1400,
+        price : 1600,
         content : 100
     },
     {
@@ -266,7 +266,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Aqva Amara",
-        price : 1100,
+        price : 1200,
         content : 100
     },
     {
@@ -275,7 +275,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Blv",
-        price : 1400,
+        price : 1600,
         content : 100
     },
     {
@@ -284,7 +284,7 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Goldea EDP",
-        price : 2000,
+        price : 2200,
         content : 90
     },
     {
@@ -293,7 +293,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Man",
-        price : 1400,
+        price : 1500,
         content : 100
     },
     {
@@ -302,7 +302,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Man Extreme",
-        price : 1400,
+        price : 1500,
         content : 100
     },
     {
@@ -311,16 +311,7 @@ var fragancias = [
         gender : "male",
         designer : "Bvlgari",
         name : "Man in Black EDP",
-        price : 1500,
-        content : 100
-    },
-    {
-        picture : "82271.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Bvlgari",
-        name : "Jasmin Noir EDP",
-        price : 2000,
+        price : 1600,
         content : 100
     },
     {
@@ -329,7 +320,7 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Omnia Coral",
-        price : 1250,
+        price : 1400,
         content : 65
     },
     {
@@ -338,7 +329,7 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Omnia Crystalinne l'eau de Parfum EDP",
-        price : 1250,
+        price : 1400,
         content : 65
     },
     {
@@ -347,7 +338,7 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Omnia Crystalinne",
-        price : 1250,
+        price : 1400,
         content : 65
     },
     {
@@ -356,35 +347,8 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Omnia Paraiba",
-        price : 1250,
+        price : 1400,
         content : 65
-    },
-    {
-        picture : "8413120825.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Bvlgari",
-        name : "Petits et Mamans",
-        price : 1000,
-        content : 100
-    },
-    {
-        picture : "83159.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Bvlgari",
-        name : "Pour Homme",
-        price : 1400,
-        content : 100
-    },
-    {
-        picture : "83156.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Bvlgari",
-        name : "Pour Homme Soir",
-        price : 1400,
-        content : 100
     },
     {
         picture : "10037814.jpg",
@@ -392,7 +356,7 @@ var fragancias = [
         gender : "fem",
         designer : "Bvlgari",
         name : "Rose Goldea EDP",
-        price : 2000,
+        price : 2200,
         content : 90
     },
     {
@@ -401,7 +365,7 @@ var fragancias = [
         gender : "fem",
         designer : "Cacharel",
         name : "Amor Amor",
-        price : 1500,
+        price : 1700,
         content : 100
     },
     {
@@ -410,7 +374,7 @@ var fragancias = [
         gender : "fem",
         designer : "Cacharel",
         name : "Amor Amor Forbidden Kiss",
-        price : 1400,
+        price : 1600,
         content : 100
     },
     {
@@ -419,7 +383,7 @@ var fragancias = [
         gender : "fem",
         designer : "Cacharel",
         name : "Amor Amor in a Flash",
-        price : 1500,
+        price : 1600,
         content : 100
     },
     {
@@ -428,7 +392,7 @@ var fragancias = [
         gender : "fem",
         designer : "Cacharel",
         name : "Amor Amor L'eau",
-        price : 1000,
+        price : 1100,
         content : 100
     },
     {
@@ -446,7 +410,7 @@ var fragancias = [
         gender : "male",
         designer : "Calvin Klein",
         name : "CK Be",
-        price : 900,
+        price : 1100,
         content : 200
     },
     {
@@ -455,7 +419,7 @@ var fragancias = [
         gender : "male",
         designer : "Calvin Klein",
         name : "CK Free",
-        price : 850,
+        price : 1000,
         content : 100
     },
     {
@@ -473,7 +437,7 @@ var fragancias = [
         gender : "male",
         designer : "Calvin Klein",
         name : "CK One",
-        price : 1100,
+        price : 1300,
         content : 200
     },
     {
@@ -482,7 +446,7 @@ var fragancias = [
         gender : "male",
         designer : "Calvin Klein",
         name : "Eternity",
-        price : 1100,
+        price : 1300,
         content : 100
     },
     {
@@ -491,7 +455,7 @@ var fragancias = [
         gender : "fem",
         designer : "Calvin Klein",
         name : "Eternity",
-        price : 1200,
+        price : 1400,
         content : 100
     },
     {
@@ -500,7 +464,7 @@ var fragancias = [
         gender : "fem",
         designer : "Calvin Klein",
         name : "Eternity Moment EDP",
-        price : 1000,
+        price : 1200,
         content : 100
     },
     {
@@ -527,7 +491,7 @@ var fragancias = [
         gender : "fem",
         designer : "Calvin Klein",
         name : "Euphoria EDP",
-        price : 1400,
+        price : 1600,
         content : 100
     },
     {
@@ -536,51 +500,6 @@ var fragancias = [
         gender : "male",
         designer : "Calvin Klein",
         name : "Euphoria",
-        price : 1200,
-        content : 100
-    },
-    {
-        picture : "8Q9337100.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Calvin Klein",
-        name : "Euphoria Endless EDP",
-        price : 1300,
-        content : 75
-    },
-    {
-        picture : "562.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Calvin Klein",
-        name : "Euphoria Essence EDP",
-        price : 1200,
-        content : 100
-    },
-    {
-        picture : "793851.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Calvin Klein",
-        name : "Euphoria Essence",
-        price : 1200,
-        content : 100
-    },
-    {
-        picture : "794658.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Calvin Klein",
-        name : "Deep Euphoria EDP",
-        price : 1600,
-        content : 100
-    },
-    {
-        picture : "837911.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Calvin Klein",
-        name : "Reveal",
         price : 1300,
         content : 100
     },
@@ -653,7 +572,7 @@ var fragancias = [
         gender : "male",
         designer : "Carlo Corinto",
         name : "Dark Seduccion",
-        price : 370,
+        price : 500,
         content : 100
     },
     {
@@ -662,7 +581,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carlo Corinto",
         name : "Dark Seduccion",
-        price : 370,
+        price : 500,
         content : 100
     },
     {
@@ -671,7 +590,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carlo Corinto",
         name : "Fare Folie",
-        price : 750,
+        price : 900,
         content : 100
     },
     {
@@ -680,7 +599,7 @@ var fragancias = [
         gender : "male",
         designer : "Carlo Corinto",
         name : "French Riviera",
-        price : 390,
+        price : 500,
         content : 100
     },
     {
@@ -689,7 +608,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carlo Corinto",
         name : "French Riviera",
-        price : 390,
+        price : 500,
         content : 100
     },
     {
@@ -698,7 +617,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "212",
-        price : 1650,
+        price : 2000,
         content : 100
     },
     {
@@ -707,7 +626,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "212",
-        price : 1500,
+        price : 1750,
         content : 100
     },
     {
@@ -716,7 +635,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "212",
-        price : 2100,
+        price : 2450,
         content : 200
     },
     {
@@ -725,7 +644,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "212 Sexy EDP",
-        price : 1700,
+        price : 2000,
         content : 100
     },
     {
@@ -734,7 +653,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "212 Sexy",
-        price : 1600,
+        price : 1750,
         content : 100
     },
     {
@@ -743,7 +662,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "212 VIP",
-        price : 1600,
+        price : 1750,
         content : 100
     },
     {
@@ -752,7 +671,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "212 VIP",
-        price : 2100,
+        price : 2450,
         content : 200
     },
     {
@@ -760,17 +679,17 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Carolina Herrera",
-        name : "212 VIP",
-        price : 1800,
+        name : "212 VIP EDP",
+        price : 2100,
         content : 80
     },
     {
-        picture : "65081672.jpg",
+        picture : "65038585.jpg",
         type : "fragancia",
         gender : "fem",
         designer : "Carolina Herrera",
-        name : "212 VIP Rose EDP",
-        price : 1900,
+        name : "212 VIP EDP",
+        price : 2300,
         content : 125
     },
     {
@@ -779,7 +698,16 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "212 VIP Rose EDP",
-        price : 1750,
+        price : 2300,
+        content : 125
+    },
+    {
+        picture : "65081672.jpg",
+        type : "fragancia",
+        gender : "fem",
+        designer : "Carolina Herrera",
+        name : "212 VIP Rose EDP",
+        price : 2150,
         content : 80
     },
     {
@@ -788,16 +716,7 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "Carolina Herrera EDP",
-        price : 1700,
-        content : 100
-    },
-    {
-        picture : "026169.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Carolina Herrera",
-        name : "Carolina Herrera EDT",
-        price : 1600,
+        price : 1900,
         content : 100
     },
     {
@@ -806,25 +725,25 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "CH",
-        price : 1900,
-        content : 100
-    },
-    {
-        picture : "65026266.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Carolina Herrera",
-        name : "CH",
-        price : 1700,
-        content : 100
-    },
-    {
-        picture : "65026266.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Carolina Herrera",
-        name : "CH",
         price : 2200,
+        content : 100
+    },
+    {
+        picture : "65026266.jpg",
+        type : "fragancia",
+        gender : "male",
+        designer : "Carolina Herrera",
+        name : "CH",
+        price : 1850,
+        content : 100
+    },
+    {
+        picture : "65026266.jpg",
+        type : "fragancia",
+        gender : "male",
+        designer : "Carolina Herrera",
+        name : "CH",
+        price : 2400,
         content : 200
     },
     {
@@ -833,17 +752,8 @@ var fragancias = [
         gender : "fem",
         designer : "Carolina Herrera",
         name : "Good Girl",
-        price : 2000,
+        price : 2250,
         content : 80
-    },
-    {
-        picture : "65041556.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Carolina Herrera",
-        name : "L'eau Eau Fraiche Spray",
-        price : 1600,
-        content : 100
     },
     {
         picture : "65106717.jpg",
@@ -851,7 +761,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "Privé",
-        price : 1900,
+        price : 2100,
         content : 150
     },
     {
@@ -860,106 +770,7 @@ var fragancias = [
         gender : "male",
         designer : "Carolina Herrera",
         name : "Privé",
-        price : 1700,
-        content : 100
-    },
-    {
-        picture : "65069774.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Carolina Herrera",
-        name : "Sublime EDP",
-        price : 1700,
-        content : 80
-    },
-    {
-        picture : "028169.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Carolina Herrera",
-        name : "Herrera",
-        price : 1550,
-        content : 100
-    },
-    {
-        picture : "FP327040.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "Baiser Volé EDP",
-        price : 1900,
-        content : 100
-    },
-    {
-        picture : "FP327040.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "Baiser Volé EDT",
-        price : 1900,
-        content : 100
-    },
-    {
-        picture : "FS327037.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "La Panthère EDP",
-        price : 1900,
-        content : 75
-    },
-    {
-        picture : "FS417037.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "La Panthère Légère EDP",
         price : 1800,
-        content : 75
-    },
-    {
-        picture : "66417040.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Déclaration",
-        price : 1500,
-        content : 100
-    },
-    {
-        picture : "66417040.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Déclaration",
-        price : 1700,
-        content : 150
-    },
-    {
-        picture : "66417040.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Déclaration",
-        price : 1900,
-        content : 200
-    },
-    {
-        picture : "66717040.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "Déclaration Essence",
-        price : 1500,
-        content : 100
-    },
-    {
-        picture : "FF417040.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "Déclaration d´un Soir",
-        price : 1450,
         content : 100
     },
     {
@@ -1051,42 +862,6 @@ var fragancias = [
         name : "Eau Concentrée",
         price : 1700,
         content : 200
-    },
-    {
-        picture : "FK567044.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Eau Essence de Bois",
-        price : 1650,
-        content : 200
-    },
-    {
-        picture : "FK567044.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Cartier",
-        name : "Eau Essence de Bois",
-        price : 1650,
-        content : 200
-    },
-    {
-        picture : "65417040.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Pasha",
-        price : 1400,
-        content : 100
-    },
-    {
-        picture : "65717040.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Cartier",
-        name : "Pasha Noire",
-        price : 1500,
-        content : 100
     },
     {
         picture : "112530.jpg",
@@ -1382,16 +1157,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Addict EDP",
-        price : 2300,
-        content : 100
-    },
-    {
-        picture : "F006284849.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Christian Dior",
-        name : "Addict Eau Fraiche EDP",
-        price : 1800,
+        price : 2600,
         content : 100
     },
     {
@@ -1400,16 +1166,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Addict Eau Fraiche EDT",
-        price : 1450,
-        content : 100
-    },
-    {
-        picture : "F062824009.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Christian Dior",
-        name : "Addict Eau Sensuelle",
-        price : 1350,
+        price : 2000,
         content : 100
     },
     {
@@ -1418,7 +1175,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Diorissimo",
-        price : 1800,
+        price : 2000,
         content : 100
     },
     {
@@ -1427,7 +1184,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Dolce Vita",
-        price : 1800,
+        price : 2100,
         content : 100
     },
     {
@@ -1436,7 +1193,7 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Eau Sauvage",
-        price : 2200,
+        price : 2850,
         content : 200
     },
     {
@@ -1445,7 +1202,7 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Eau Sauvage",
-        price : 1750,
+        price : 2000,
         content : 100
     },
     {
@@ -1454,7 +1211,7 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Fahrenheit",
-        price : 1750,
+        price : 2000,
         content : 100
     },
     {
@@ -1463,25 +1220,16 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Fahrenheit",
-        price : 2200,
+        price : 2500,
         content : 200
     },
     {
-        picture : "F006344009.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Christian Dior",
-        name : "Hypnotic Poison",
-        price : 1800,
-        content : 100
-    },
-    {
         picture : "F071586009.jpg",
         type : "fragancia",
         gender : "fem",
         designer : "Christian Dior",
         name : "Jadore EDP",
-        price : 2900,
+        price : 3300,
         content : 150
     },
     {
@@ -1490,16 +1238,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Jadore EDP",
-        price : 2300,
-        content : 100
-    },
-    {
-        picture : "F071324009.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Christian Dior",
-        name : "Jadore in Joy",
-        price : 1800,
+        price : 2650,
         content : 100
     },
     {
@@ -1508,7 +1247,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior EDP",
-        price : 2900,
+        price : 3300,
         content : 150
     },
     {
@@ -1517,7 +1256,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior EDP",
-        price : 2300,
+        price : 2650,
         content : 100
     },
     {
@@ -1526,7 +1265,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior Absolutely Blooming EDP",
-        price : 2300,
+        price : 2650,
         content : 100
     },
     {
@@ -1535,7 +1274,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior Originale",
-        price : 1800,
+        price : 2000,
         content : 100
     },
     {
@@ -1544,7 +1283,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior Blooming Bouquet",
-        price : 2200,
+        price : 2500,
         content : 150
     },
     {
@@ -1553,7 +1292,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Miss Dior Blooming Bouquet",
-        price : 1800,
+        price : 2100,
         content : 100
     },
     {
@@ -1562,7 +1301,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Poison",
-        price : 1800,
+        price : 2100,
         content : 100
     },
     {
@@ -1571,7 +1310,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Poison Girl EDP",
-        price : 2300,
+        price : 2600,
         content : 100
     },
     {
@@ -1580,7 +1319,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Poison Girl EDT",
-        price : 1800,
+        price : 2100,
         content : 100
     },
     {
@@ -1589,7 +1328,7 @@ var fragancias = [
         gender : "fem",
         designer : "Christian Dior",
         name : "Pure Poison EDP",
-        price : 2300,
+        price : 2600,
         content : 100
     },
     {
@@ -1598,7 +1337,7 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Sauvage",
-        price : 1700,
+        price : 2000,
         content : 100
     },
     {
@@ -1607,8 +1346,17 @@ var fragancias = [
         gender : "male",
         designer : "Christian Dior",
         name : "Sauvage",
-        price : 2300,
+        price : 2850,
         content : 200
+    },
+    {
+        picture : "F068524009.jpg",
+        type : "fragancia",
+        gender : "male",
+        designer : "Christian Dior",
+        name : "Sauvage EDP",
+        price : 2350,
+        content : 100
     },
     {
         picture : "81083807.jpg",
@@ -1616,7 +1364,7 @@ var fragancias = [
         gender : "male",
         designer : "Dolce & Gabbana",
         name : "Dolce & Gabbana",
-        price : 1400,
+        price : 1650,
         content : 125
     },
     {
@@ -1625,7 +1373,7 @@ var fragancias = [
         gender : "fem",
         designer : "Dolce & Gabbana",
         name : "Dolce EDP",
-        price : 2100,
+        price : 2300,
         content : 75
     },
     {
@@ -1634,7 +1382,7 @@ var fragancias = [
         gender : "fem",
         designer : "Dolce & Gabbana",
         name : "Dolce Rosa Excelsa EDP",
-        price : 2100,
+        price : 2300,
         content : 75
     },
     {
@@ -1643,7 +1391,7 @@ var fragancias = [
         gender : "fem",
         designer : "Dolce & Gabbana",
         name : "Intense EDP",
-        price : 2000,
+        price : 2200,
         content : 100
     },
     {
@@ -1692,12 +1440,21 @@ var fragancias = [
         content : 100
     },
     {
+        picture : "81076491.jpg",
+        type : "fragancia",
+        gender : "male",
+        designer : "Dolce & Gabbana",
+        name : "The One",
+        price : 1900,
+        content : 150
+    },
+    {
         picture : "81037117.jpg",
         type : "fragancia",
         gender : "fem",
         designer : "Dolce & Gabbana",
         name : "The One EDP",
-        price : 2000,
+        price : 1900,
         content : 75
     },
     {
@@ -1760,7 +1517,7 @@ var fragancias = [
         gender : "fem",
         designer : "Giorgio Armani",
         name : "Acqua de Gio",
-        price : 1800,
+        price : 2000,
         content : 100
     },
     {
@@ -1769,7 +1526,7 @@ var fragancias = [
         gender : "male",
         designer : "Giorgio Armani",
         name : "Acqua de Gio",
-        price : 1750,
+        price : 1900,
         content : 100
     },
     {
@@ -1778,17 +1535,8 @@ var fragancias = [
         gender : "male",
         designer : "Giorgio Armani",
         name : "Acqua de Gio",
-        price : 2200,
+        price : 2400,
         content : 200
-    },
-    {
-        picture : "L6588600.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Giorgio Armani",
-        name : "Acqua de Gio Profumo EDP",
-        price : 2000,
-        content : 125
     },
     {
         picture : "1196270.jpg",
@@ -1796,7 +1544,7 @@ var fragancias = [
         gender : "fem",
         designer : "Giorgio Armani",
         name : "Acqua de Gioia EDP",
-        price : 1900,
+        price : 2250,
         content : 100
     },
     {
@@ -1805,7 +1553,7 @@ var fragancias = [
         gender : "male",
         designer : "Giorgio Armani",
         name : "Armani",
-        price : 1600,
+        price : 1750,
         content : 100
     },
     {
@@ -1814,7 +1562,7 @@ var fragancias = [
         gender : "male",
         designer : "Giorgio Armani",
         name : "Code",
-        price : 2000,
+        price : 2300,
         content : 125
     },
     {
@@ -1823,7 +1571,7 @@ var fragancias = [
         gender : "fem",
         designer : "Giorgio Armani",
         name : "Diamonds EDP",
-        price : 1700,
+        price : 1900,
         content : 100
     },
     {
@@ -1832,7 +1580,7 @@ var fragancias = [
         gender : "male",
         designer : "Giorgio Armani",
         name : "Diamonds",
-        price : 1500,
+        price : 1700,
         content : 75
     },
     {
@@ -1841,7 +1589,7 @@ var fragancias = [
         gender : "fem",
         designer : "Giorgio Armani",
         name : "Sí EDP",
-        price : 2200,
+        price : 2500,
         content : 100
     },
     {
@@ -2021,7 +1769,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Champs Elisees EDP",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2030,7 +1778,7 @@ var fragancias = [
         gender : "male",
         designer : "Guerlain",
         name : "Habit Rouge",
-        price : 2000,
+        price : 2100,
         content : 200
     },
     {
@@ -2039,7 +1787,7 @@ var fragancias = [
         gender : "male",
         designer : "Guerlain",
         name : "Heritage",
-        price : 1400,
+        price : 1500,
         content : 100
     },
     {
@@ -2048,7 +1796,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Idylle EDP",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2057,7 +1805,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Imperial EDP",
-        price : 1400,
+        price : 1500,
         content : 100
     },
     {
@@ -2066,7 +1814,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Insolance EDP",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2075,7 +1823,7 @@ var fragancias = [
         gender : "male",
         designer : "Guerlain",
         name : "L'Homme Ideal EDP",
-        price : 1700,
+        price : 1800,
         content : 100
     },
     {
@@ -2084,7 +1832,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "L'Instant EDP",
-        price : 2000,
+        price : 2100,
         content : 80
     },
     {
@@ -2093,7 +1841,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Samsara EDP",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2102,7 +1850,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "La Petite Robe Noire EDP",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2111,7 +1859,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Shalimar EDP",
-        price : 1800,
+        price : 1900,
         content : 90
     },
     {
@@ -2120,7 +1868,7 @@ var fragancias = [
         gender : "fem",
         designer : "Guerlain",
         name : "Shalimar Souffle de Parfum",
-        price : 1800,
+        price : 1900,
         content : 90
     },
     {
@@ -2129,7 +1877,7 @@ var fragancias = [
         gender : "male",
         designer : "Guerlain",
         name : "Vetiver",
-        price : 1200,
+        price : 1300,
         content : 100
     },
     {
@@ -2138,7 +1886,7 @@ var fragancias = [
         gender : "male",
         designer : "Guerlain",
         name : "Vetiver",
-        price : 1800,
+        price : 1900,
         content : 200
     },
     {
@@ -2273,7 +2021,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Gaultier EDP",
-        price : 1900,
+        price : 2000,
         content : 100
     },
     {
@@ -2282,7 +2030,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Gaultier EDT",
-        price : 1750,
+        price : 1900,
         content : 100
     },
     {
@@ -2291,7 +2039,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Intense EDP",
-        price : 1900,
+        price : 2000,
         content : 100
     },
     {
@@ -2300,7 +2048,7 @@ var fragancias = [
         gender : "male",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Gaultier",
-        price : 1600,
+        price : 1700,
         content : 125
     },
     {
@@ -2309,7 +2057,7 @@ var fragancias = [
         gender : "male",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Le Male",
-        price : 1400,
+        price : 1500,
         content : 125
     },
     {
@@ -2318,7 +2066,7 @@ var fragancias = [
         gender : "male",
         designer : "Jean Paul Gaultier",
         name : "Jean Paul Gaultier Ultramale",
-        price : 1600,
+        price : 1700,
         content : 125
     },
     {
@@ -2336,7 +2084,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jesus del Pozo",
         name : "Halloween",
-        price : 1000,
+        price : 1100,
         content : 100
     },
     {
@@ -2345,7 +2093,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jesus del Pozo",
         name : "Halloween Blue Drop",
-        price : 1000,
+        price : 1100,
         content : 100
     },
     {
@@ -2354,7 +2102,7 @@ var fragancias = [
         gender : "fem",
         designer : "Jesus del Pozo",
         name : "Halloween Fleur",
-        price : 1000,
+        price : 1100,
         content : 100
     },
     {
@@ -2363,7 +2111,7 @@ var fragancias = [
         gender : "male",
         designer : "Jesus del Pozo",
         name : "Halloween",
-        price : 1000,
+        price : 1050,
         content : 125
     },
     {
@@ -2371,8 +2119,8 @@ var fragancias = [
         type : "fragancia",
         gender : "male",
         designer : "Jesus del Pozo",
-        name : "Halloween Man Rock",
-        price : 1000,
+        name : "Halloween Man Rock On",
+        price : 1050,
         content : 125
     },
     {
@@ -2381,7 +2129,7 @@ var fragancias = [
         gender : "male",
         designer : "Jesus del Pozo",
         name : "Halloween Man Shot",
-        price : 1000,
+        price : 1050,
         content : 125
     },
     {
@@ -2408,7 +2156,7 @@ var fragancias = [
         gender : "fem",
         designer : "Kenzo",
         name : "Amour EDP",
-        price : 1700,
+        price : 1800,
         content : 100
     },
     {
@@ -2417,7 +2165,7 @@ var fragancias = [
         gender : "fem",
         designer : "Kenzo",
         name : "Flower EDP",
-        price : 1700,
+        price : 1800,
         content : 100
     },
     {
@@ -2426,7 +2174,7 @@ var fragancias = [
         gender : "fem",
         designer : "Kenzo",
         name : "L' Elixir EDP",
-        price : 1800,
+        price : 1900,
         content : 100
     },
     {
@@ -2435,7 +2183,7 @@ var fragancias = [
         gender : "fem",
         designer : "Kenzo",
         name : "Jeu D'Amour",
-        price : 1500,
+        price : 1600,
         content : 75
     },
     {
@@ -2444,7 +2192,7 @@ var fragancias = [
         gender : "male",
         designer : "Lacoste",
         name : "Eau Blanc",
-        price : 1300,
+        price : 1500,
         content : 100
     },
     {
@@ -2453,7 +2201,7 @@ var fragancias = [
         gender : "male",
         designer : "Lacoste",
         name : "Eau Blanc",
-        price : 1500,
+        price : 1700,
         content : 175
     },
     {
@@ -2471,7 +2219,7 @@ var fragancias = [
         gender : "male",
         designer : "Lacoste",
         name : "Eau Jaune",
-        price : 1300,
+        price : 1400,
         content : 100
     },
     {
@@ -2508,7 +2256,7 @@ var fragancias = [
         designer : "Lacoste",
         name : "Red",
         price : 1300,
-        content : 100
+        content : 125
     },
     {
         picture : "LS-0000036.jpg",
@@ -2525,7 +2273,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Hypnose EDP",
-        price : 1600,
+        price : 1700,
         content : 75
     },
     {
@@ -2534,7 +2282,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "La Vie est Belle EDP",
-        price : 2300,
+        price : 2500,
         content : 100
     },
     {
@@ -2543,7 +2291,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "La Vie est Belle  L'Éclat EDP",
-        price : 2100,
+        price : 2300,
         content : 75
     },
     {
@@ -2552,7 +2300,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Magie Noire",
-        price : 1500,
+        price : 1750,
         content : 75
     },
     {
@@ -2561,7 +2309,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Miracle EDP",
-        price : 1700,
+        price : 1900,
         content : 100
     },
     {
@@ -2569,8 +2317,8 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Lancôme",
-        name : "Ô de Lancôme EDP",
-        price : 1400,
+        name : "Ô de Lancôme",
+        price : 1500,
         content : 125
     },
     {
@@ -2579,7 +2327,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Ôui",
-        price : 1350,
+        price : 1500,
         content : 75
     },
     {
@@ -2588,7 +2336,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Poême EDP",
-        price : 1800,
+        price : 2000,
         content : 100
     },
     {
@@ -2597,7 +2345,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Trésor",
-        price : 2000,
+        price : 2100,
         content : 100
     },
     {
@@ -2606,7 +2354,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Trésor in Love EDP",
-        price : 1600,
+        price : 1700,
         content : 100
     },
     {
@@ -2615,7 +2363,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Trésor La Nuit EDP",
-        price : 2100,
+        price : 2400,
         content : 100
     },
     {
@@ -2624,7 +2372,7 @@ var fragancias = [
         gender : "fem",
         designer : "Lancôme",
         name : "Trésor Midnight Rose EDP",
-        price : 1600,
+        price : 1650,
         content : 75
     },
     {
@@ -2831,7 +2579,7 @@ var fragancias = [
         gender : "fem",
         designer : "Marc Jacobs",
         name : "Daisy",
-        price : 1550,
+        price : 1650,
         content : 100
     },
     {
@@ -2840,7 +2588,7 @@ var fragancias = [
         gender : "fem",
         designer : "Marc Jacobs",
         name : "Daisy Dream",
-        price : 1550,
+        price : 1650,
         content : 100
     },
     {
@@ -2849,7 +2597,7 @@ var fragancias = [
         gender : "fem",
         designer : "Marc Jacobs",
         name : "Daisy Eau So Fresh",
-        price : 1400,
+        price : 1500,
         content : 125
     },
     {
@@ -2858,7 +2606,7 @@ var fragancias = [
         gender : "fem",
         designer : "Marc Jacobs",
         name : "Decadence EDP",
-        price : 2300,
+        price : 2400,
         content : 100
     },
     {
@@ -2867,7 +2615,7 @@ var fragancias = [
         gender : "fem",
         designer : "Marc Jacobs",
         name : "Divine Decadence EDP",
-        price : 2300,
+        price : 2400,
         content : 100
     },
     {
@@ -3056,7 +2804,7 @@ var fragancias = [
         gender : "male",
         designer : "Nautica",
         name : "Blue",
-        price : 700,
+        price : 850,
         content : 100
     },
     {
@@ -3065,7 +2813,7 @@ var fragancias = [
         gender : "male",
         designer : "Nautica",
         name : "Voyage",
-        price : 700,
+        price : 850,
         content : 100
     },
     {
@@ -3074,7 +2822,7 @@ var fragancias = [
         gender : "fem",
         designer : "Nina Ricci",
         name : "L'Air Du Temps EDP",
-        price : 1500,
+        price : 1600,
         content : 100
     },
     {
@@ -3083,7 +2831,7 @@ var fragancias = [
         gender : "fem",
         designer : "Nina Ricci",
         name : "Nina",
-        price : 1500,
+        price : 1600,
         content : 80
     },
     {
@@ -3092,7 +2840,7 @@ var fragancias = [
         gender : "fem",
         designer : "Nina Ricci",
         name : "Nina Elixir EDP",
-        price : 1350,
+        price : 1500,
         content : 80
     },
     {
@@ -3110,7 +2858,7 @@ var fragancias = [
         gender : "fem",
         designer : "Nina Ricci",
         name : "L'extase EDP",
-        price : 1700,
+        price : 1750,
         content : 80
     },
     {
@@ -3119,7 +2867,7 @@ var fragancias = [
         gender : "fem",
         designer : "Nina Ricci",
         name : "Ricci EDP",
-        price : 1500,
+        price : 1600,
         content : 80
     },
     {
@@ -3128,7 +2876,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paco Rabanne",
         name : "Lady Million EDP",
-        price : 1700,
+        price : 2000,
         content : 80
     },
     {
@@ -3137,7 +2885,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paco Rabanne",
         name : "Lady Million Prive EDP",
-        price : 1900,
+        price : 2150,
         content : 80
     },
     {
@@ -3146,7 +2894,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paco Rabanne",
         name : "Olympea EDP",
-        price : 1750,
+        price : 2000,
         content : 80
     },
     {
@@ -3155,7 +2903,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paco Rabanne",
         name : "Olympea Intense EDP",
-        price : 1850,
+        price : 2150,
         content : 80
     },
     {
@@ -3164,7 +2912,7 @@ var fragancias = [
         gender : "male",
         designer : "Paco Rabanne",
         name : "One Million",
-        price : 1600,
+        price : 1800,
         content : 100
     },
     {
@@ -3173,17 +2921,8 @@ var fragancias = [
         gender : "male",
         designer : "Paco Rabanne",
         name : "One Million",
-        price : 2250,
+        price : 2550,
         content : 200
-    },
-    {
-        picture : "65106507.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Paco Rabanne",
-        name : "One Million Prive EDP",
-        price : 1700,
-        content : 100
     },
     {
         picture : "802134.jpg",
@@ -3191,7 +2930,7 @@ var fragancias = [
         gender : "male",
         designer : "Paco Rabanne",
         name : "Paco Rabanne",
-        price : 1600,
+        price : 1800,
         content : 100
     },
     {
@@ -3200,17 +2939,8 @@ var fragancias = [
         gender : "male",
         designer : "Paco Rabanne",
         name : "Invictus",
-        price : 1600,
+        price : 1800,
         content : 100
-    },
-    {
-        picture : "65055742.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Paco Rabanne",
-        name : "Invictus",
-        price : 2000,
-        content : 150
     },
     {
         picture : "811134.jpg",
@@ -3218,7 +2948,7 @@ var fragancias = [
         gender : "male",
         designer : "Paco Rabanne",
         name : "XS",
-        price : 1600,
+        price : 1900,
         content : 100
     },
     {
@@ -3235,18 +2965,9 @@ var fragancias = [
         type : "fragancia",
         gender : "fem",
         designer : "Paco Rabanne",
-        name : "XS Black",
-        price : 1750,
+        name : "XS Black EDP",
+        price : 2000,
         content : 80
-    },
-    {
-        picture : "132712876.jpg",
-        type : "fragancia",
-        gender : "fem",
-        designer : "Paris Hilton",
-        name : "Paris Hilton 10 Anniversary EDP",
-        price : 850,
-        content : 100
     },
     {
         picture : "38271576.jpg",
@@ -3254,7 +2975,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paris Hilton",
         name : "Paris Hilton EDP",
-        price : 850,
+        price : 1000,
         content : 100
     },
     {
@@ -3263,7 +2984,7 @@ var fragancias = [
         gender : "male",
         designer : "Paris Hilton",
         name : "Paris Hilton",
-        price : 850,
+        price : 950,
         content : 100
     },
     {
@@ -3272,7 +2993,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paris Hilton",
         name : "Can Can",
-        price : 850,
+        price : 1000,
         content : 100
     },
     {
@@ -3281,7 +3002,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paris Hilton",
         name : "Can Can Burlesque",
-        price : 850,
+        price : 1000,
         content : 100
     },
     {
@@ -3290,7 +3011,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paris Hilton",
         name : "Gold Rush",
-        price : 850,
+        price : 1050,
         content : 100
     },
     {
@@ -3299,7 +3020,7 @@ var fragancias = [
         gender : "male",
         designer : "Paris Hilton",
         name : "Gold Rush",
-        price : 850,
+        price : 1050,
         content : 100
     },
     {
@@ -3308,7 +3029,7 @@ var fragancias = [
         gender : "fem",
         designer : "Paris Hilton",
         name : "Heiress EDP",
-        price : 850,
+        price : 1000,
         content : 100
     },
     {
@@ -3317,7 +3038,7 @@ var fragancias = [
         gender : "fem",
         designer : "Perry Ellis",
         name : "360º",
-        price : 850,
+        price : 900,
         content : 100
     },
     {
@@ -3326,17 +3047,8 @@ var fragancias = [
         gender : "male",
         designer : "Perry Ellis",
         name : "360º",
-        price : 800,
+        price : 850,
         content : 100
-    },
-    {
-        picture : "19376577.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Perry Ellis",
-        name : "360º",
-        price : 1000,
-        content : 200
     },
     {
         picture : "10101277.jpg",
@@ -3362,7 +3074,7 @@ var fragancias = [
         gender : "fem",
         designer : "Perry Ellis",
         name : "360º Coral",
-        price : 850,
+        price : 900,
         content : 100
     },
     {
@@ -3371,7 +3083,7 @@ var fragancias = [
         gender : "fem",
         designer : "Perry Ellis",
         name : "360º Purple",
-        price : 850,
+        price : 900,
         content : 100
     },
     {
@@ -3398,7 +3110,7 @@ var fragancias = [
         gender : "fem",
         designer : "Perry Ellis",
         name : "Perry 18 EDP",
-        price : 850,
+        price : 900,
         content : 100
     },
     {
@@ -3416,16 +3128,7 @@ var fragancias = [
         gender : "male",
         designer : "Perry Ellis",
         name : "Aqua Extreme",
-        price : 850,
-        content : 100
-    },
-    {
-        picture : "37101277.jpg",
-        type : "fragancia",
-        gender : "male",
-        designer : "Perry Ellis",
-        name : "Perry Ellis Red",
-        price : 850,
+        price : 900,
         content : 100
     },
     {
@@ -3434,7 +3137,7 @@ var fragancias = [
         gender : "male",
         designer : "Ralph Lauren",
         name : "Polo",
-        price : 1600,
+        price : 1900,
         content : 118
     },
     {
@@ -3443,7 +3146,7 @@ var fragancias = [
         gender : "male",
         designer : "Ralph Lauren",
         name : "Polo",
-        price : 2000,
+        price : 2350,
         content : 237
     },
     {
@@ -3452,7 +3155,7 @@ var fragancias = [
         gender : "male",
         designer : "Ralph Lauren",
         name : "Polo Black",
-        price : 1600,
+        price : 1850,
         content : 125
     },
     {
@@ -3461,7 +3164,7 @@ var fragancias = [
         gender : "male",
         designer : "Ralph Lauren",
         name : "Polo Blue",
-        price : 1600,
+        price : 1750,
         content : 125
     },
     {
@@ -3470,7 +3173,7 @@ var fragancias = [
         gender : "male",
         designer : "Ralph Lauren",
         name : "Polo Red",
-        price : 1600,
+        price : 1750,
         content : 125
     },
     {
@@ -3479,7 +3182,7 @@ var fragancias = [
         gender : "fem",
         designer : "Ralph Lauren",
         name : "Ralph",
-        price : 1600,
+        price : 1900,
         content : 100
     },
     {
@@ -3488,7 +3191,7 @@ var fragancias = [
         gender : "fem",
         designer : "Ralph Lauren",
         name : "Ralph Fresh",
-        price : 1700,
+        price : 1900,
         content : 100
     },
     {
@@ -3497,7 +3200,7 @@ var fragancias = [
         gender : "fem",
         designer : "Ralph Lauren",
         name : "Ralph Love",
-        price : 1700,
+        price : 1900,
         content : 100
     },
     {
@@ -3506,7 +3209,7 @@ var fragancias = [
         gender : "fem",
         designer : "Ralph Lauren",
         name : "Midnight Romance EDP",
-        price : 1700,
+        price : 2100,
         content : 100
     },
     {
@@ -3515,7 +3218,7 @@ var fragancias = [
         gender : "male",
         designer : "Versace",
         name : "Blue Jeans",
-        price : 600,
+        price : 650,
         content : 75
     },
     {
@@ -3542,7 +3245,7 @@ var fragancias = [
         gender : "fem",
         designer : "Versace",
         name : "Crystal Noir",
-        price : 1700,
+        price : 1800,
         content : 90
     },
     {
@@ -3569,7 +3272,7 @@ var fragancias = [
         gender : "fem",
         designer : "Versace",
         name : "Eros EDP",
-        price : 2000,
+        price : 2050,
         content : 100
     },
     {
