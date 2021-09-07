@@ -863,7 +863,7 @@ var fragancias = [
         price : 1700,
         content : 200
     },
-    {
+    /*{
         picture : "112530.jpg",
         type : "fragancia",
         gender : "fem",
@@ -1150,7 +1150,7 @@ var fragancias = [
         name : "Pour Monsieur",
         price : 1900,
         content : 100
-    },
+    },*/
     {
         picture : "F007284409.jpg",
         type : "fragancia",
