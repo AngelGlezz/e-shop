@@ -8,7 +8,7 @@ ul, ol {
 }
 			
 .nav {
-	width: 571px; /*Le establecemos un ancho*/
+	width: 300px; /*Le establecemos un ancho*/
 	margin: 0 auto; /*Centramos automaticamente*/
 	overflow: auto;
 }
